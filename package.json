@@ -1,0 +1,35 @@
+{
+  "name": "editor-pro-max",
+  "version": "1.0.0",
+  "description": "AI-powered video editor with Remotion and Claude Code",
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "render": "remotion render",
+    "upgrade": "remotion upgrade",
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {},
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@remotion/cli": "4.0.440",
+    "@remotion/media-utils": "4.0.440",
+    "@remotion/noise": "4.0.440",
+    "@remotion/player": "4.0.440",
+    "@remotion/shapes": "4.0.440",
+    "@remotion/transitions": "4.0.440",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.440",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@remotion/renderer": "4.0.440",
+    "@types/react": "19.0.0",
+    "@types/web": "0.0.166",
+    "prettier": "3.4.2",
+    "typescript": "5.7.3"
+  },
+  "private": true
+}
